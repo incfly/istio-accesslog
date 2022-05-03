@@ -1,0 +1,7 @@
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+notes.md
+
+build
+dist
+.cache
