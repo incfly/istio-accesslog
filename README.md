@@ -1,4 +1,4 @@
-# Istio Security Analyzer
+# Istio Access Log
 
 This is a tool to analyze the time spent in either ingress gateway or sidecar proxy by parsing the format.
 
