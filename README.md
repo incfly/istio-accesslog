@@ -1,8 +1,8 @@
 # Istio Access Log
 
-This is a tool to analyze the time spent in either ingress gateway or sidecar proxy by parsing the format.
+This repo contains a sample to illustrate how the sidecar access log can be used to termine the time spent in Envoy.
 
-TODO: the tool is an imagined one. We can implement it when got time or more use cases :).
+TL;DR: `%DURATION% - %RESP(X-ENVOY-UPSTREAM-SERVICE-TIME)%` is the time spent in the Envoy.
 
 
 # Goal Analyze Istio Envoy time spent there.
